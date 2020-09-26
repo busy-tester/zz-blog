@@ -2,9 +2,12 @@
   <div :class="classObj" class="app-wrapper">
     <div v-if="device==='mobile'&&sidebar.opened" class="drawer-bg" @click="handleClickOutside" />
     <sidebar class="sidebar-container" />
-    <div class="main-container">
+    <!-- 4，添加样式 hasTagsView -->
+    <div class="hasTagsView main-container">
       <div :class="{'fixed-header':fixedHeader}">
         <navbar />
+        <!-- 3 引用标签页导航组件 -->
+        <tags-view />
       </div>
       <app-main />
     </div>
