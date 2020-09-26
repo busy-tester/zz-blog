@@ -12,7 +12,8 @@
 </template>
 
 <script>
-import { Navbar, Sidebar, AppMain } from './components'
+// 1 导入组件
+import { Navbar, Sidebar, AppMain, TagsView } from './components'
 import ResizeMixin from './mixin/ResizeHandler'
 
 export default {
@@ -20,7 +21,8 @@ export default {
   components: {
     Navbar,
     Sidebar,
-    AppMain
+    AppMain,
+    TagsView //2 引用组件
   },
   mixins: [ResizeMixin],
   computed: {

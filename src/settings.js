@@ -1,16 +1,16 @@
 module.exports = {
 
-  title: 'Vue Admin Template',
+  title: '博客管理系统',
 
   /**
    * @type {boolean} true | false
-   * @description Whether fix the header
+   * @description Whether fix the header 固定头部
    */
-  fixedHeader: false,
+  fixedHeader: true,
 
   /**
    * @type {boolean} true | false
-   * @description Whether show the logo in sidebar
+   * @description Whether show the logo in sidebar  是否显示左上角 logo 区域
    */
-  sidebarLogo: false
+  sidebarLogo: true
 }
