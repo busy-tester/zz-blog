@@ -1,4 +1,5 @@
 <template>
+<!-- 分类管理 -->
     <!--  class="app-container" 列表距离上下左右的间隔  -->
     <div class="app-container">
             <!-- 搜索开始 -->
