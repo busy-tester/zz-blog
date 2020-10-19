@@ -53,5 +53,13 @@ export default{
             url: `article/category/list`,
             method: 'get'
         })
+    },
+
+    // 获取所有正常状态的分类和标签，文章管理里用
+    getCategoryAndLabel(){
+        return request({
+            url: `/article/category/label/list`,
+            method: 'get'
+        })
     }
     }
